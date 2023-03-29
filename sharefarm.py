@@ -1,14 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
-
-
-
-# In[5]:
-
 
 #importing necessary libraries
 import psycopg2
@@ -19,8 +8,6 @@ import pandas as pd
 from numpy import nan
 import lxml
 
-
-# In[6]:
 
 
 # This code extracts data from a given URL, cleans and transforms it to a SQL-compatible format,
@@ -48,15 +35,13 @@ def Clean_Transform_To_Sql_Format(df):
     return new_df
 
 
-# In[ ]:
-
 
 # Connect to PostgreSQL database
 conn = psycopg2.connect(
-    host="usda-price.cgujtu5fz4ar.us-east-1.rds.amazonaws.com",
+    host="localhost",
     database="shareFarm",
     user="postgres",
-    password="Sndkraa75%"
+    password="Password"
 )
 
 cur = conn.cursor()
@@ -141,13 +126,6 @@ cur.close()
 conn.close()
 
 
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 
