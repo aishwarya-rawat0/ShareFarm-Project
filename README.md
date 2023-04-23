@@ -1,4 +1,4 @@
-# ShareFarm-Project
+# ShareFarm-Project(SQL,Data Scraping,Postgresql)
 This project involved developing a Python script for a client in the agriculture industry to extract current price updates for vegetables, fruits, and ornamentals from their website. The extracted data was then subjected to exploratory data analysis (EDA) and machine learning algorithms to identify patterns and predict future price trends. The results were inserted into a PostgreSQL database and displayed in a real-time dashboard for the client.
 
 The project followed best practices in data science, including modular programming, data cleaning, and normalization. The code is organized into several modules, each with a specific task, and follows the DRY (Don't Repeat Yourself) principle. The modules include data extraction, data cleaning, data normalization, EDA, machine learning, and database management.
